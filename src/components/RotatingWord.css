@@ -1,0 +1,35 @@
+.rotating-word {
+  display: inline-block;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #333;
+  transform: translateX(-8px) translateY(-30%);
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation-name: letter-fade;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: calc(var(--letter-index) * 100ms);
+}
+
+@keyframes letter-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
