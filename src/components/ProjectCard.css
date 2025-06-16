@@ -1,0 +1,25 @@
+.project-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-card h3 {
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.logo-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem auto;
+}
+
+.logo-img {
+  width: 180px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #333;
+  margin: 0;
+}
