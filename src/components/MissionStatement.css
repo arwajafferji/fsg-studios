@@ -1,0 +1,11 @@
+.mission-statement {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: #286db5;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
