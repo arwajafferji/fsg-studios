@@ -1,0 +1,140 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background: transparent;
+  box-shadow: none;
+}
+
+.navbar--home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.navbar--solid {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar--home .nav-logo {
+  color: #fff;
+}
+.navbar--solid .nav-logo {
+  color: #007aff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a,
+.nav-links span {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  transition: color 0.3s;
+}
+
+.navbar--home .nav-links a,
+.navbar--home .nav-links span {
+  color: #333;
+}
+.navbar--solid .nav-links a,
+.navbar--solid .nav-links span {
+  color: #333;
+}
+
+.nav-links a::after,
+.nav-links span::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links span:hover::after,
+.nav-links a.active::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: max-content;
+  background: transparent;
+  box-shadow: none;
+  padding: 0.5rem 0;
+  list-style: none;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 50;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content li {
+  margin: 0;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: max-content;
+  background: transparent;
+  box-shadow: none;
+  padding: 0.5rem 0;
+  list-style: none;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 50;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
