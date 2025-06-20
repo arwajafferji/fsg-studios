@@ -1,6 +1,6 @@
 .logo-header {
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
   justify-content: center;
   gap: 1rem;
   margin: 3rem auto;
@@ -14,6 +14,7 @@
 .logo-text {
   font-size: 4rem;
   font-weight: 300;
+  line-height: 1;
   color: #333;
-  margin: 0;
+  position: relative;
 }
