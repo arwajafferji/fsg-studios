@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fsg-studios/static/css/main.92491b2f.css",
+    "main.js": "/fsg-studios/static/js/main.a1192b98.js",
+    "static/js/453.783a4ad3.chunk.js": "/fsg-studios/static/js/453.783a4ad3.chunk.js",
+    "static/media/fencing.png": "/fsg-studios/static/media/fencing.f646bfbcf610dc64f79d.png",
+    "static/media/tiling.png": "/fsg-studios/static/media/tiling.62763e1711744f046f68.png",
+    "static/media/cabinetry.png": "/fsg-studios/static/media/cabinetry.dee29a083b2c68d089ff.png",
+    "static/media/glass.png": "/fsg-studios/static/media/glass.aef2255e3170039688ba.png",
+    "static/media/fsg-background.png": "/fsg-studios/static/media/fsg-background.95e433e71d8920d75224.png",
+    "static/media/fsg-logo.png": "/fsg-studios/static/media/fsg-logo.9dcceeb27e1231edbc0d.png",
+    "static/media/fsg-cropped.png": "/fsg-studios/static/media/fsg-cropped.3a95fe5a586915afc60c.png",
+    "index.html": "/fsg-studios/index.html",
+    "main.92491b2f.css.map": "/fsg-studios/static/css/main.92491b2f.css.map",
+    "main.a1192b98.js.map": "/fsg-studios/static/js/main.a1192b98.js.map",
+    "453.783a4ad3.chunk.js.map": "/fsg-studios/static/js/453.783a4ad3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92491b2f.css",
+    "static/js/main.a1192b98.js"
+  ]
+}
