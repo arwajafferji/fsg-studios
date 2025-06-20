@@ -1,6 +1,5 @@
 import "./App.css";
 import HeroSection from "./components/HeroSection";
-import LogoHeader from "./components/LogoHeader";
 import MissionStatement from "./components/MissionStatement";
 import ProjectGrid from "./components/ProjectGrid";
 import Navbar from "./components/Navbar";
