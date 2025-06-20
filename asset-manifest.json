@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fsg-studios/static/css/main.92491b2f.css",
-    "main.js": "/fsg-studios/static/js/main.c1a60245.js",
+    "main.js": "/fsg-studios/static/js/main.2ad70630.js",
     "static/js/453.783a4ad3.chunk.js": "/fsg-studios/static/js/453.783a4ad3.chunk.js",
     "static/media/fencing.png": "/fsg-studios/static/media/fencing.f646bfbcf610dc64f79d.png",
     "static/media/tiling.png": "/fsg-studios/static/media/tiling.62763e1711744f046f68.png",
@@ -12,11 +12,11 @@
     "static/media/fsg-cropped.png": "/fsg-studios/static/media/fsg-cropped.3a95fe5a586915afc60c.png",
     "index.html": "/fsg-studios/index.html",
     "main.92491b2f.css.map": "/fsg-studios/static/css/main.92491b2f.css.map",
-    "main.c1a60245.js.map": "/fsg-studios/static/js/main.c1a60245.js.map",
+    "main.2ad70630.js.map": "/fsg-studios/static/js/main.2ad70630.js.map",
     "453.783a4ad3.chunk.js.map": "/fsg-studios/static/js/453.783a4ad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92491b2f.css",
-    "static/js/main.c1a60245.js"
+    "static/js/main.2ad70630.js"
   ]
 }
