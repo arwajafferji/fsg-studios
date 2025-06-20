@@ -3,15 +3,13 @@ import RotatingWord from "./RotatingWord";
 import "./LogoHeader.css";
 import LogoCropped from "../images/fsg-cropped.png";
 
-const LogoHeader = () => {
+export default function LogoHeader() {
   return (
-    <div className="logo-header" data-aos="fade-down">
-      <img src={LogoCropped} alt="FSG Studio Logo" className="logo-img" />
-      <h1 className="logo-text">
+    <div className="logo-header">
+      <img src={LogoCropped} alt="FSG mark" className="logo-img" />
+      <div className="logo-text">
         <RotatingWord />
-      </h1>
+      </div>
     </div>
   );
-};
-
-export default LogoHeader;
+}

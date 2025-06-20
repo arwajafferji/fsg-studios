@@ -3,7 +3,7 @@
   font-size: inherit;
   font-weight: inherit;
   color: #333;
-  transform: translateX(-8px) translateY(-30%);
+  transform: translateX(-8px) translateY(-0.55em);
 }
 
 .letter {
