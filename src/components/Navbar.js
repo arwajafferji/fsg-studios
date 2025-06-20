@@ -5,7 +5,7 @@ import FSGLogo from "../images/fsg-logo.png";
 
 export default function Navbar() {
   const { pathname } = useLocation();
-  const isHome = pathname === "/fsg-studios";
+  const isHome = pathname === "/";
   return (
     <nav className={`navbar ${isHome ? "navbar--home" : "navbar--solid"}`}>
       <img src={FSGLogo} alt="FSG Studio Logo" className="logo-img" />
