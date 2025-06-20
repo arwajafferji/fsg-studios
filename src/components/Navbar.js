@@ -11,7 +11,7 @@ export default function Navbar() {
       <img src={FSGLogo} alt="FSG Studio Logo" className="logo-img" />
       <ul className="nav-links">
         <li>
-          <NavLink to="/fsg-studios" end>
+          <NavLink to="/" end>
             Home
           </NavLink>
         </li>
