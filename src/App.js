@@ -24,7 +24,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/fsg-studios"
           element={
             <>
               <HeroSection />
